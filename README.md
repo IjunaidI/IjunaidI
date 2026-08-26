@@ -1,167 +1,63 @@
-<!--
-  PROFILE README TEMPLATE
-  Put this file at:  github.com/YOUR_USERNAME/YOUR_USERNAME/README.md
-  Replace every YOUR_USERNAME below (ctrl+F it, there are several).
-  Colors: swap ACCENT hex 8b5cf6 for whatever you want.
--->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IjunaidI/IjunaidI/main/assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IjunaidI/IjunaidI/main/assets/banner-light.svg">
+  <img alt="Muhammad Junaid, Senior Forward Deployed Engineer. Design, frontend, and product judgment in one person." src="https://raw.githubusercontent.com/IjunaidI/IjunaidI/main/assets/banner-light.svg" width="100%">
+</picture>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Your%20Name&fontSize=54&fontColor=ffffff&fontAlignY=38&animation=fadeIn" />
+<br>
 
-<h3 align="center">turning ideas into working software</h3>
+Senior Forward Deployed Engineer at 10Pearls, embedded on client teams instead of sitting behind a delivery layer. Seven years owning user facing products from the first sketch to the deployed feature: the interface, the frontend, and the calls about what actually ships.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/BASED_IN-KARACHI-8b5cf6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/FREELANCE-OPEN-8b5cf6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/EXPERIENCE-7%2B_YEARS-8b5cf6?style=for-the-badge" />
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=8b5cf6&label=PROFILE+VIEWS" />
-</p>
+Most teams staff design, frontend, and product separately and then pay the coordination cost. I am the version where one person holds all three, which is faster when the product still needs to be figured out while it is being built.
 
-<p align="center">
-  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/EMAIL-1f2937?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/LINKEDIN-1f2937?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://your-site.com"><img src="https://img.shields.io/badge/PORTFOLIO-1f2937?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-</p>
+**Looking for** staff or senior product engineer, design engineer, forward deployed engineer, or founding engineer roles. Fully remote, worldwide, at companies small enough that shipping still beats process. Full time through an EOR, contract, or freelance all work.
 
----
+## Now
 
-## About
+_Updated August 2026_
 
-<table>
-<tr>
-<td width="70%" valign="top">
+- Building donor and campaign features on a global crowdfunding platform, my longest running client engagement
+- Running [claudearchitectguide.com](https://claudearchitectguide.com), a free prep guide for the Claude Certified Architect exam. I sat the exam, found that no study resource existed, and shipped one
+- Rebuilding my portfolio as a working code editor rather than a case study scroll
 
-Hi, I'm **Your Name**. I build web products end to end and I don't leave a prototype alone until it actually works.
+## Selected work
 
-Recent work sits at the intersection of **full stack development, AI tooling, and applied research**. Client sites that have to rank and convert, plus side projects where I get to break things on purpose and figure out why.
+**[WheelBuilds](https://github.com/IjunaidI/WheelBuilds)** &nbsp;·&nbsp; Fitment aware storefront for wheels and tires. You enter your vehicle and only see parts that physically fit it. Distributor stock arrives as SFTP CSV feeds and gets diffed on a 12 hour cron, and product discovery stays under a second through Meilisearch.
+<sub>MedusaJS 2.0 · Next.js 15 · React 19 · PostgreSQL · Redis · Meilisearch</sub>
 
-Powered by curiosity and an unreasonable amount of chai.
+**[Inspect](https://github.com/IjunaidI/Inspect-monorepo)** &nbsp;·&nbsp; Multi tenant SaaS that replaces paper quality control inspections in textile and garment factories. Guided photo workflows, ISO 2859-1 AQL accept and reject sampling, and reports signed with a hash chained audit log so a buyer can prove a report was never edited after the fact.
+<sub>Next.js 15 · NestJS · Prisma · PostgreSQL · Turborepo</sub>
 
-</td>
-<td width="30%" align="center" valign="top">
+**[Identimal](https://github.com/IjunaidI/Identimal-ML)** &nbsp;·&nbsp; Face recognition, except the faces are cattle. A PyTorch model learns deep metric embeddings from muzzle prints and exports to ONNX. The [companion Android app](https://github.com/IjunaidI/Identimal-Mobile-App) runs detect, embed, and match fully on device against a local vector database, so a farmer can register a herd in a field with no signal.
+<sub>PyTorch · ONNX · Kotlin · Jetpack Compose</sub>
 
-🐢
+**[PSX Shariah Trader](https://github.com/IjunaidI/psx-predictor-ML)** &nbsp;·&nbsp; Scores the most liquid Shariah compliant equities on the Pakistan Stock Exchange and returns a target portfolio over a REST API, with weights, prices, and per name slippage estimates.
+<sub>Python · PyTorch · REST</sub>
 
-**Turtle**
+## What is not on this profile
 
-resident mascot
+Most of my production work sits in private client repos under NDA, so the graph below undercounts the last seven years by a wide margin. In that time I have shipped across a global crowdfunding platform, a Web3 NFT platform, an enterprise risk product on both web and React Native, a real estate platform on a headless CMS, and a run of Salesforce Lightning builds for legal advocacy and education nonprofits. Happy to walk through any of it in detail.
 
-slow commits,
-steady progress
+## Stack
 
-</td>
-</tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IjunaidI/IjunaidI/main/assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IjunaidI/IjunaidI/main/assets/stack-light.svg">
+  <img alt="Stack grouped into design, engineering, and product" src="https://raw.githubusercontent.com/IjunaidI/IjunaidI/main/assets/stack-light.svg" width="100%">
+</picture>
 
-<table>
-<tr>
-<td valign="top" width="50%">
+Strongest on the frontend and on interface work. Comfortable in Node.js and at working depth with Prisma and SQL. My Python is machine learning flavoured rather than backend services.
 
-### 🎯 Currently Exploring
+## How I work
 
-| Area | Focus |
-|------|-------|
-| AI Agents | Claude Code pipelines |
-| Frontend | Next.js 15, RSC |
-| Commerce | Shopify, Medusa |
-| Research | Sequence models |
+I go looking for the gap in a system and then close it. I move fast and conversationally before locking a direction, push back when there is a simpler path, and stay strict only on the constraints that genuinely carry the product. I would rather show you something running than describe it.
 
-</td>
-<td valign="top" width="50%">
+## Certifications
 
-### 📊 Focus
+Claude Certified Architect Professional, 2026 &nbsp;·&nbsp; Google Generative AI Leader, 2026 &nbsp;·&nbsp; Google Data Analytics Professional, 2025
 
-| Skill | Level |
-|-------|-------|
-| Frontend | `█████████░` 95% |
-| WordPress | `█████████░` 90% |
-| AI Tooling | `████████░░` 80% |
-| Backend | `███████░░░` 75% |
+## Talk to me
 
-</td>
-</tr>
-</table>
+<a href="https://linkedin.com/in/muhammad-junaid-pe"><img src="https://img.shields.io/badge/Start%20here-linkedin.com%2Fin%2Fmuhammad--junaid--pe-5B3BD4?style=for-the-badge&labelColor=17160F" alt="LinkedIn"></a>
 
-> ⚡ **Quick facts**
->
-> 🔭 Currently building AI assisted workflows that survive production &nbsp;&nbsp; 🌱 Deepening my work on applied ML &nbsp;&nbsp; 👯 Open to collaborating on full stack and AI projects &nbsp;&nbsp; 💬 Ask me about Next.js, Shopify, or why the model is hallucinating again &nbsp;&nbsp; ⚡ Fun fact: my commits get quieter the closer the deadline gets
-
----
-
-## Technical Toolkit
-
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=ts,js,py,php,html,css&theme=dark" />
-
-**Frontend & Backend**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,nodejs,express,wordpress&theme=dark" />
-<img src="https://img.shields.io/badge/Shopify-1f2937?style=for-the-badge&logo=shopify&logoColor=7AB55C" />
-
-**AI & Automation**
-
-<img src="https://img.shields.io/badge/CLAUDE_CODE-8b5cf6?style=for-the-badge" />
-<img src="https://img.shields.io/badge/N8N-8b5cf6?style=for-the-badge" />
-<img src="https://img.shields.io/badge/PROMPT_ENGINEERING-8b5cf6?style=for-the-badge" />
-<img src="https://img.shields.io/badge/API_INTEGRATIONS-8b5cf6?style=for-the-badge" />
-
-**Databases & Infrastructure**
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,supabase,docker&theme=dark" />
-
-**Tools & Deployment**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel,figma&theme=dark" />
-
----
-
-## Experience
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Freelance Web Developer**
-Self employed
-
-Full stack builds for US clients across WordPress, Shopify, and Next.js. Design, build, SEO, and ongoing maintenance.
-
-</td>
-<td width="50%" valign="top">
-
-**Trainee to Developer**
-10Pearls
-
-Started at 15. Production web work and the habits that came with it.
-
-</td>
-</tr>
-</table>
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img src="https://img.shields.io/github/followers/YOUR_USERNAME?style=for-the-badge&color=8b5cf6&labelColor=1f2937" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/YOUR_USERNAME&query=public_repos&label=REPOS&style=for-the-badge&color=8b5cf6&labelColor=1f2937" />
-</p>
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=0d1117&title_color=8b5cf6&icon_color=8b5cf6&text_color=c9d1d9" />
-  <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&bg_color=0d1117&title_color=8b5cf6&text_color=c9d1d9" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8" />
-</p>
-
-<p align="center">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=0d1117&color=c9d1d9&line=8b5cf6&point=ffffff&hide_border=true" />
-</p>
-
----
-
-<p align="center">📫 Always up for a chat about web builds, AI tooling, or the perfect turtle emoji. Reach out.</p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" />
+Or email **mjunaid7843@gmail.com**. I answer everything.
