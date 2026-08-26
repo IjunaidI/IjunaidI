@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Muhammad Junaid, terminal session">
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:20px}
+.type{transform-box:fill-box;transform-origin:100% 50%;animation:type .7s steps(26,end) forwards}
+@keyframes type{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+.o{opacity:0;animation:show .01s steps(1,end) forwards}
+@keyframes show{to{opacity:1}}
+.cr{opacity:0;animation:blink 1.05s steps(1,end) 3.9s infinite}
+@keyframes blink{0%,50%{opacity:1}51%,100%{opacity:0}}
+.roll{animation:roll 8s linear infinite}
+@keyframes roll{from{transform:translateY(-60px)}to{transform:translateY(400px)}}
+@media (prefers-reduced-motion:reduce){.type{animation:none;transform:scaleX(0)}.o,.cr{animation:none;opacity:1}.roll{animation:none;opacity:0}}
+</style>
+<defs>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+<rect width="4" height="1" fill="#FFFFFF" opacity="0.045"/>
+</pattern>
+<radialGradient id="vig" cx="50%" cy="50%" r="75%">
+<stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+<stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+</radialGradient>
+<linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#6FE3D4" stop-opacity="0"/>
+<stop offset="50%" stop-color="#6FE3D4" stop-opacity="0.06"/>
+<stop offset="100%" stop-color="#6FE3D4" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<clipPath id="c"><rect width="1200" height="340" rx="12"/></clipPath>
+<g clip-path="url(#c)">
+<rect width="1200" height="340" fill="#04100D"/>
+
+<!-- line 1: prompt + whoami -->
+<text x="48" y="62"><tspan fill="#6FE3D4">junaid@karachi</tspan><tspan fill="#8DA2DE">:</tspan><tspan fill="#FF7FA8">~</tspan><tspan fill="#8DA2DE">$ </tspan><tspan fill="#EAF6F2">whoami</tspan></text>
+<rect class="type" x="40" y="40" width="470" height="32" fill="#04100D" style="animation-delay:.3s"/>
+
+<!-- line 2: output -->
+<text class="o" x="48" y="106" fill="#9DB8B0" style="animation-delay:1.15s">muhammad junaid &#183; design it, build it, ship it</text>
+
+<!-- line 3: prompt + uptime -->
+<g class="o" style="animation-delay:1.5s">
+<text x="48" y="150"><tspan fill="#6FE3D4">junaid@karachi</tspan><tspan fill="#8DA2DE">:</tspan><tspan fill="#FF7FA8">~</tspan><tspan fill="#8DA2DE">$ </tspan><tspan fill="#EAF6F2">uptime</tspan></text>
+<rect class="type" x="40" y="128" width="470" height="32" fill="#04100D" style="animation-delay:1.5s"/>
+</g>
+
+<!-- line 4: output -->
+<text class="o" x="48" y="194" fill="#9DB8B0" style="animation-delay:2.35s">up 8 years, load average: fine, fine, fine</text>
+
+<!-- line 5: prompt + ls -->
+<g class="o" style="animation-delay:2.7s">
+<text x="48" y="238"><tspan fill="#6FE3D4">junaid@karachi</tspan><tspan fill="#8DA2DE">:</tspan><tspan fill="#FF7FA8">~</tspan><tspan fill="#8DA2DE">$ </tspan><tspan fill="#EAF6F2">ls ~/side-quests</tspan></text>
+<rect class="type" x="40" y="216" width="470" height="32" fill="#04100D" style="animation-delay:2.7s"/>
+</g>
+
+<!-- line 6: output dirs -->
+<text class="o" x="48" y="282" fill="#6FE3D4" style="animation-delay:3.55s">cattle-face-id/  wheel-fitment/  psx-trader/  exam-guide/  pixel-banners/</text>
+
+<!-- line 7: fresh prompt + cursor -->
+<g class="o" style="animation-delay:3.9s">
+<text x="48" y="326"><tspan fill="#6FE3D4">junaid@karachi</tspan><tspan fill="#8DA2DE">:</tspan><tspan fill="#FF7FA8">~</tspan><tspan fill="#8DA2DE">$ </tspan><tspan class="cr" fill="#6FE3D4">&#9608;</tspan></text>
+</g>
+
+<!-- CRT dressing -->
+<rect class="roll" x="0" y="0" width="1200" height="60" fill="url(#band)"/>
+<rect width="1200" height="340" fill="url(#scan)"/>
+<rect width="1200" height="340" fill="url(#vig)"/>
+</g>
+</svg>

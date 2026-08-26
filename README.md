@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IjunaidI/IjunaidI/main/assets/banner.svg" width="100%" alt="Muhammad Junaid, senior forward deployed engineer">
+  <img src="https://raw.githubusercontent.com/IjunaidI/IjunaidI/banner-rpg/concepts/rpg.svg" width="100%" alt="Muhammad Junaid, level 8 engineer status screen banner">
 </p>
 
 <p align="center">
