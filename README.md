@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IjunaidI/IjunaidI/main/assets/banner.svg" width="100%" alt="Muhammad Junaid, senior forward deployed engineer">
+  <img src="https://raw.githubusercontent.com/IjunaidI/IjunaidI/banner-outrun/concepts/outrun.svg" width="100%" alt="Muhammad Junaid, design build ship, outrun horizon banner">
 </p>
 
 <p align="center">
