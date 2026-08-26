@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/SHIPPING_SINCE-2018-FFD166?style=for-the-badge&labelColor=0A0E24">
 </p>
 
-I design it, build it, and ship it. Seven years at 10Pearls, embedded on client teams rather than sitting behind a delivery layer, holding the interface, the frontend, and the calls about what actually goes out.
+I design it, build it, and ship it. Seven years embedded on client teams rather than sitting behind a delivery layer, holding the interface, the frontend, and the calls about what actually goes out.
 
 **After hours** is where it gets weird. Teaching a neural net to tell one cow from another. Convincing a storefront that wheel fitment is a physics problem, not a dropdown. Placing 4px rectangles by hand until the banner above stopped looking wrong. Karachi based, awake at strange hours, at home in any timezone.
 
@@ -46,6 +46,10 @@ I design it, build it, and ship it. Seven years at 10Pearls, embedded on client 
 | **[Identimal](https://github.com/IjunaidI/Identimal-ML)** | Face recognition, but for cattle. Runs fully [on device](https://github.com/IjunaidI/Identimal-Mobile-App), so it works in a field with no signal. | `PyTorch` `ONNX` `Kotlin` |
 | **[PSX Shariah Trader](https://github.com/IjunaidI/psx-predictor-ML)** | Scores Shariah compliant equities on the Pakistan Stock Exchange and returns a target portfolio over an API. | `Python` `PyTorch` |
 | **[claudearchitectguide.com](https://claudearchitectguide.com)** | Free prep guide for the Claude Certified Architect exam. I sat it, found nothing existed, built one. | `Next.js` |
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IjunaidI/IjunaidI/main/assets/rpg-mini.svg" width="100%" alt="Muhammad Junaid, level 8 engineer, side quests cleared: 5">
+</p>
 
 Most of my production work lives in private client repos under NDA, so the contribution graph undercounts by a lot. The good stuff happens off camera.
 
